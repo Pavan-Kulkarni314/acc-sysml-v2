@@ -1,0 +1,12 @@
+# Everything needed to work with the model: Java, Graphviz, the SysML v2
+# Pilot Implementation (as a Jupyter kernel) and JupyterLab.
+#
+#   conda env create -f environment.yml
+#   conda activate acc-sysml
+name: acc-sysml
+channels:
+  - conda-forge
+dependencies:
+  - python=3.12
+  - jupyter-sysml-kernel=0.63.1   # brings openjdk >=17 and graphviz
+  - jupyterlab

@@ -1,0 +1,3 @@
+# Keep Unix line endings in shell scripts so they run in Git Bash, WSL and Linux
+*.sh text eol=lf
+*.sysml text eol=lf
